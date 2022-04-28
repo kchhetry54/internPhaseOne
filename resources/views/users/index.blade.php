@@ -75,11 +75,11 @@
             @endif
 
         </div>
-        {{-- @if ($users->perpage()<$users->toal())
+        @if ($users->perPage()<$users->total())
             <div class="card-footer bg-warning">
                 {{ $users->links() }}
             </div>
-        @endif --}}
+        @endif
     </div>
 
 @endsection
